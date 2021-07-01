@@ -29,6 +29,30 @@ namespace DS {
 			size = BST.size;
 			LevelOrderTraversal(BST.Root, [&](T& val) -> void { Insert(val); });
 		}
+		~BinarySearchTree() {
+			DeleteTree(Root);
+		}
+
+		void DeleteTree(std::shared_ptr<BSTNode<T>> node) {
+			if (!node) return;
+			DeleteTree(node->Left);
+			DeleteTree(node->Right);
+
+			if (node == Root) {
+				Root = nullptr;
+				return;
+			}
+			if (node->Parent->value <= node->value) {
+				node->Parent->Right.reset();
+				node.reset();
+				return;
+			}
+			else {
+				node->Parent->Left.reset();
+				node.reset();
+				return;
+			}
+		}
 
 		void Insert(const T& Value) {
 			std::shared_ptr<BSTNode<T>> next = Root;
