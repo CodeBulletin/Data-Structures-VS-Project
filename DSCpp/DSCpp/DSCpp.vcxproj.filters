@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Extra">
+      <UniqueIdentifier>{7e7a516e-5e8a-4777-8521-55e088b4e590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms">
+      <UniqueIdentifier>{fd6353dc-038e-4293-8a04-9091738c60fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures">
+      <UniqueIdentifier>{b201f45d-0c4f-4dfa-8aed-968334a097a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures\Queue">
+      <UniqueIdentifier>{f3769cf6-f575-4f05-896f-64bc75f30e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures\Stacks">
+      <UniqueIdentifier>{1576db91-89a3-4835-8556-247d2ec836f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures\LinkedLists">
+      <UniqueIdentifier>{7e36ffa6-7d08-477c-a51e-9972e3f639b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures\Arrays">
+      <UniqueIdentifier>{4ee57472-a071-41d9-8870-732530b784b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures\Trees">
+      <UniqueIdentifier>{7e23b3ae-e7dc-44a4-8fdc-d674f6166b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStuctures\MapsAndSets">
+      <UniqueIdentifier>{6a9c43a6-40ba-434f-948c-e9d0e8bf87de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SinglyLinkedList.hpp">
+      <Filter>Header Files\DataStuctures\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublyLinkedList.hpp">
+      <Filter>Header Files\DataStuctures\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularlyLinkedList.hpp">
+      <Filter>Header Files\DataStuctures\LinkedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListStack.hpp">
+      <Filter>Header Files\DataStuctures\Stacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayStack.hpp">
+      <Filter>Header Files\DataStuctures\Stacks</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticArray.hpp">
+      <Filter>Header Files\DataStuctures\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="BalancedBrackets.hpp">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListQueue.hpp">
+      <Filter>Header Files\DataStuctures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticArrayQueue.hpp">
+      <Filter>Header Files\DataStuctures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.hpp">
+      <Filter>Header Files\DataStuctures\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+    <ClInclude Include="BalancedBT.hpp">
+      <Filter>Header Files\DataStuctures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.hpp">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Header Files\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.hpp">
+      <Filter>Header Files\DataStuctures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.hpp">
+      <Filter>Header Files\DataStuctures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.hpp">
+      <Filter>Header Files\DataStuctures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="HashSet.hpp">
+      <Filter>Header Files\DataStuctures\MapsAndSets</Filter>
+    </ClInclude>
+    <ClInclude Include="HashMap.hpp">
+      <Filter>Header Files\DataStuctures\MapsAndSets</Filter>
+    </ClInclude>
+    <ClInclude Include="DisjointSet.hpp">
+      <Filter>Header Files\DataStuctures\MapsAndSets</Filter>
+    </ClInclude>
+    <ClInclude Include="MapsAndSets.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes.hpp">
+      <Filter>Header Files\DataStuctures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
